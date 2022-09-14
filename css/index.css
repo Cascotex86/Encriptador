@@ -1,0 +1,191 @@
+body{
+    width: 100%;
+    height: auto;
+    background: -webkit-linear-gradient(#1a73d2, #ffffff);
+    margin: 0%;
+    background-attachment: fixed;
+}
+
+#cuadroLogo{
+    width: 100%;
+    padding: 1.5em;
+    background-color: #3b86d6;
+    color: #FFFFFF;
+}
+
+.logo{
+    display: inline;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 28px;
+    margin-right: 20px;
+    vertical-align: middle;
+    
+}
+
+.secciones{
+    display: flex;
+    width: 93.8%;
+    margin: 2em;
+}
+
+.seccion1{
+    width: 50%;
+}
+
+.seccion2{
+    width: 50%;
+}
+
+#campo1{
+    width: 90%;
+    background: #FFFFFF;
+    border-radius: 30px;
+    padding: 1.5em;
+    box-shadow: 5px 5px 6px #111533;
+    margin-bottom: 1.5em;
+}
+
+#campo2{
+    width: 70%;
+    background: #ffffff;
+    border-radius: 30px;
+    padding: 1.5em;
+    box-shadow: 5px 5px 6px #111533;
+    margin-bottom: 1.5em;
+    margin-left: 10%;
+}
+
+#cuadroAviso{
+    margin-bottom: 2em;
+    margin-left: 2em;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.campoTexto{
+    width: 100%;
+    border: none;
+    resize: none;
+    outline: none;
+    height: 500px;
+    font-size: 23px;
+    color: #1f295f;    
+}
+
+#muneco{
+    position: absolute;
+    top: 30%;
+    bottom: 40%;
+    right: 17%;
+    filter: drop-shadow(8px 8px 4px #676666);
+
+}
+
+.botones{
+    text-align: center;    
+}
+
+#botonEncriptar, #botonDesencriptar, #botonCopiar{
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 6px #757474;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+#botonEncriptar:hover, #botonDesencriptar:hover, #botonCopiar:hover{
+    transform: scale(1.2);
+}
+
+#botonEncriptar{
+    background-color: #1f295f;
+    color: #ffffff;
+
+}
+
+#botonDesencriptar{
+    background-color: #ffffff;
+    color: #1f295f;
+    margin-left: 4%;
+}
+
+#cuadroCopiar{
+    display: block;
+    margin-top: 4.5em;
+}
+
+#botonCopiar{
+    background-color: #9a9999;
+    color: #000000;
+    
+}
+
+#cuadroTextosCampo2{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #1f295f;
+    position: absolute;
+    bottom: 17%;
+    right: 17%;
+}
+
+#texto1{
+    font-size: 3ch;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #1f295f;
+    font-size: 1.5em;
+    margin: 2.5em 1px;
+    padding-top: 2%;
+}
+
+.invisible{
+    display: none
+}
+
+@media screen and (max-width: 480px){
+
+    #campo1{
+        width: 75%;
+    }
+
+    #campo2{
+        margin-left: 5%;
+        width: 75%;
+    }
+
+    .campoTexto{
+        font-size: 15px;
+
+    }
+
+    #muneco{
+        width: 40%;
+        left: 60%;
+    }
+
+    #cuadroTextosCampo2{
+        bottom: 20%;
+        right: 0%;
+    }
+
+    #texto1{
+        width: 60%;
+        
+    }
+
+    #texto2{
+        display: none;
+    }
+
+}
